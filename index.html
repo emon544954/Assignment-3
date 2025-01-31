@@ -4,49 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+       .sora-font{
+  font-family: "Sora", serif;
+ 
+ 
+}
+    </style>
     <script src="https://kit.fontawesome.com/e631e01ef9.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    
-  </head>
-</head>
-<body>
-    <header>
-        <section class="md:flex md:justify-around">
-           <div>
-            <img src="c2-assets/logo-header.png" alt="">
-           </div>
-            <div class="md:flex gap-7 text-2xl ">
-                <h3>Products</h3>
-                <h3>Services</h3>
-                <h3>Contact us</h3>
-            </div>
-            <div class="md:flex md:gap-7xl">
-                <div class="text-4xl gap-4">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-    
+   </head>
+  <body class="sora-font">
+    <header class="bg-[#EFEBE3] max-w-full max-auto px-16 ">
+        <section>
+            <nav class="navbar">
+                <div class="navbar-start ">
+                    <img src="c2-assets/logo-header.png" alt="">
                 </div>
-                <div>
-                    <i class="fa-solid fa-cart-shopping"></i>
-    
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="text-lg menu menu-horizontal px-1">
+                        <li><a href=""></a>Products</li>
+                        <li><a href=""></a>Services</li>
+                        <li><a href=""></a>Contact us</li>
+                    </ul>
+
                 </div>
-                <button class="btn border-green-300">Login</button>
-    
-                <div>
+                <div class="navbar-end hidden lg:flex gap-5">
                     <div>
-                        <button class="btn bg-green-500">Register</button>
+                        <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                        <i class="fa-solid fa-cart-shopping text-2xl"></i>
 
                     </div>
-                    <div class="md:hidden text-5xl">
-                        <i class="fa-solid fa-bars"></i>
+                    <div>
+                        <button class="btn btn-outline w-28 border-green-500 text-lg">Login</button>
+                        <button class="btn w-28 text-lg bg-green-600 text-white ">Register</button>
+
                     </div>
+
                 </div>
-            </div>
-            
-          
-        </section>
+                <div class="mx-auto ">
+                    <i class="fa-solid fa-bars md:hidden"></i>
 
+                </div>
+
+            </nav>
+            <div>
+
+            </div>
+
+
+        </section>
+        <!-- Freshness section -->
+         <section class="pt-24 text-center">
+            <div>
+                <h1 class="text-4xl font-semibold">
+                    Freshness <span class="text-green-600">You Can <br>
+                        Count</span>On, Prices You’ll Love!
+
+                </h1>
+                <p class="text-sm text-gray-400 py-6">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
+            </div>
+            <div class="lg:w-6/12 lg:ml-72 w-full">
+                <img src="c2-assets/hero-vegetables.png" alt="">
+
+            </div>
+
+         </section>
+    
     </header>
     <main>
 
@@ -54,10 +82,5 @@
     <footer>
 
     </footer>
-   
-
     
- 
-
-
-</body>
+  </body>
